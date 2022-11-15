@@ -6,8 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.card-img-top{
+   height: 34vh;
+}
+
 .site-container {
-  height: 100vh;
+  height: 50px;
 }
 main {
   flex: 1;
@@ -32,6 +36,7 @@ main {
   margin: 1rem;
 }
 .product img {
+  height: 28vh;
   width: 100%;
   max-width: 400px;
 }
