@@ -21,7 +21,7 @@ const data = {
       name: '',
       slug: '',
       category: '',
-      image: '', // 679px × 829px
+      image: '',
       price: 0,
       countInStock: 0,
       brand: '',
