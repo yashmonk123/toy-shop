@@ -1,24 +1,27 @@
 {
   "name": "amazona",
+  
   "version": "1.0.0",
   "description": "# Lessons",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/mern-amazona.git"
+    "url": "git+https://yashdubey.github.io/pwa-exp"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/basir/mern-amazona/issues"
+    "url": "https://yashdubey.github.io/pwa-exp"
   },
-  "homepage": "https://github.com/basir/mern-amazona#readme",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "mongoose": "^6.7.0"
   }
 }
