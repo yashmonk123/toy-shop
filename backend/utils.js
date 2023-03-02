@@ -61,8 +61,7 @@ export const payOrderEmailTemplate = (order) => {
   <td><strong align="right">Price</strong></td>
   </thead>
   <tbody>
-  ${order.orderItems
-    .map(
+  ${order.orderItems.map(
       (item) => `
     <tr>
     <td>${item.name}</td>

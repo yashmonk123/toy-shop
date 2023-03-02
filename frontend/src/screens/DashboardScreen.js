@@ -126,7 +126,7 @@ export default function DashboardScreen() {
                 chartType="PieChart"
                 loader={<div>Loading Chart...</div>}
                 data={[
-                  ['Category', 'Products'],
+                  ['Crime', 'Zone'],
                   ...summary.productCategories.map((x) => [x._id, x.count]),
                 ]}
               ></Chart>
