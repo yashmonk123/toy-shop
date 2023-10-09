@@ -4,7 +4,7 @@ It is a  handcrafted toy website repository
 ![image](https://github.com/yashmonk123/toy-shop/assets/110120859/18634c81-4fc2-488b-88d3-3041620a20fe)
 
 1. Clone repo
-$ git clone [git@github.com:basir/amazona.git](https://github.com/yashmonk123/toy-shop.git).
+$ git clone (https://github.com/yashmonk123/toy-shop.git).
 $ cd TOY ONLINE SHOPPING
 
 3. Setup MongoDB
